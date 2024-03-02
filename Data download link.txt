@@ -1,0 +1,7 @@
+Anxiety disorders(R9)：https://r9.finngen.fi/
+Anxiety disorders(R10)：https://r10.finngen.fi/
+AccAve：https://www.ebi.ac.uk/gwas/studies/GCST006099
+Acc425：https://www.ebi.ac.uk/gwas/studies/GCST006079
+MVPA：https://www.ebi.ac.uk/gwas/studies/GCST90104341
+SBAW：https://www.ebi.ac.uk/gwas/studies/GCST90104345
+LST：https://www.ebi.ac.uk/gwas/studies/GCST90104339
