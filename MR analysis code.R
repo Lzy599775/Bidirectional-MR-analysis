@@ -105,11 +105,11 @@ datR = transform(dat,
 datRF=transform(datR,F=(samplesize.exposure-2)*R2/(1-R2))      
 result <- sum(datRF$R2)
 Ffilter=10       # Filter data with an F value greater than 10 and save it as a csv file
-exp.FR=datFR[datRF$F>Ffilter,]
+exp.FR=datRF[datRF$F>Ffilter,]
 write.csv(exp.RF, "exp.RF.csv", row.names=F)
 
 ## Read the filtered csv file and perform format conversion
-exposureFile="exp.FR.csv"
+exposureFile="exp.RF.csv"
 exposure_dat<-read_exposure_data(filename=exposureFile,
                                  phenotype_col = "exposure",
                                  sep = ",",samplesize_col = "samplesize.exposure",
